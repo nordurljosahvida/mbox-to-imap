@@ -41,4 +41,12 @@ The imap server must meet these requirements:
 
   – Must use the period symbol [.] as the separator
 
-Have fun and take care of your emails! :)
+# Usage
+
+1] Place all of your standard mbox data inside the export/ subdirectory inside the mbox-to-imap directory
+
+2] Edit the config file with your IMAP server details and account credentials
+
+3] Open the terminal and execute the mbox-to-imap.sh script
+
+4] Have fun and take care of your emails! :)
