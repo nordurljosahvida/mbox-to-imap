@@ -23,18 +23,21 @@ export/
     SubFolder C1.mbox
 ```
 
-The export from very many mail clients can be done via [Emailchemy](http://weirdkid.com/emailchemy/) and must be done in a standard mbox export format. All exported data must be placed inside the export/ subdirectory inside the mbox-to-imap directory.
+The export from very many mail clients can be done via [Emailchemy](http://weirdkid.com/emailchemy/) [not affiliated with me and not free software] and must be done in a standard mbox export format. All exported data must be placed inside the export/ subdirectory inside the mbox-to-imap directory.
 
 ## Mailboxes
 
 The individual mailboxes' names must meet these requirements:
-– Must include only these characters: A-Z letters, numbers, periods, dashes, and spaces
-– Must not end with a period
+
+  – Must include only these characters: A-Z letters, numbers, periods, dashes, and spaces
+  – Must not end with a period
 
 ## Imap server
 
 The imap server must meet these requirements:
-– Must support TLS [SSL]
-– Must use the period symbol [.] as the separator
+
+  – Must support TLS [SSL]
+
+  – Must use the period symbol [.] as the separator
 
 Have fun and take care of your emails! :)
