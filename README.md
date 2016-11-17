@@ -30,6 +30,7 @@ The export from very many mail clients can be done via [Emailchemy](http://weird
 The individual mailboxes' names must meet these requirements:
 
   – Must include only these characters: A-Z letters, numbers, periods, dashes, and spaces
+  
   – Must not end with a period
 
 ## Imap server
