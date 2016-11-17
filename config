@@ -1,0 +1,6 @@
+# config file for mbox-to-imap
+
+mtihost=mb.os.vu
+mtiport=993
+mtiuser=cs6@os.vu
+mtipass=HelloWorld+2016
