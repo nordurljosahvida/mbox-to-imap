@@ -62,6 +62,10 @@ export/
             Sub5Folder.mbox   # this is NOT ok
 ```
 
+# Something's looking kinda strange here...
+
+I'm not a programmer. I have no idea of what I'm doing. This script worked for me and that's all I needed for now. See you in the issues section ;]
+
 # Usage
 
 1] Place all of your standard mbox data inside a subdirectory inside the mbox-to-imap directory called exactly "export" without the quotes
