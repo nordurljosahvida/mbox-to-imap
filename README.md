@@ -64,7 +64,7 @@ export/
 
 # Usage
 
-1] Place all of your standard mbox data inside the export/ subdirectory inside the mbox-to-imap directory
+1] Place all of your standard mbox data inside a subdirectory inside the mbox-to-imap directory called exactly "export" without the quotes
 
 2] Edit the config file with your IMAP server details and account credentials
 
