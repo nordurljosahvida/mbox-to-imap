@@ -39,7 +39,23 @@ The imap server must meet these requirements:
 
   – Must support TLS [SSL]
 
-  – Must use the period symbol [.] as the separator
+  – Must use the period [.] character as the separator
+
+# Limitations
+
+  — The mailboxes names must not contain the period [.] character
+
+  – Only works until 4 levels of subdirectories as in this diagram:
+  
+```
+export/
+  Folder.mbox                 # this is ok
+    SubFolder.mbox            # this is ok
+      Sub2Folder.mbox         # this is ok
+        Sub3Folder.mbox       # this is ok
+          Sub4Folder.mbox     # this is ok
+            Sub5Folder.mbox   # this is NOT ok
+```
 
 # Usage
 
@@ -49,4 +65,4 @@ The imap server must meet these requirements:
 
 3] Open the terminal and execute the mbox-to-imap.sh script
 
-4] Have fun and take care of your emails! :)
+4] Have fun and take care of your email! :)
