@@ -68,6 +68,6 @@ export/
 
 2] Edit the config file with your IMAP server details and account credentials
 
-3] Open the terminal and execute the mbox-to-imap.sh script
+3] Open the terminal, `chmod +x ./mbox-to-imap.sh` and `./mbox-to-imap.sh`
 
 4] Have fun and take care of your email! :)
