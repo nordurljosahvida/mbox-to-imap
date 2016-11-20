@@ -1,3 +1,3 @@
-#20161116 Nikksno
+## 20161116 Nikksno
 
-- No support for directory names endind with a period
+- No support for directory names containing the IMAP separator [.]
