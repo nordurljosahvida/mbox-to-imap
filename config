@@ -1,6 +1,0 @@
-# config file for mbox-to-imap
-
-mtihost=imap.example.net
-mtiport=993
-mtiuser=user@example.net
-mtipass=password
