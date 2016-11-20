@@ -50,10 +50,15 @@ The imap server must meet these requirements:
 ```
 export/
   Folder.mbox                 # this is ok
+  SubFolder/
     SubFolder.mbox            # this is ok
+    Sub2Folder/
       Sub2Folder.mbox         # this is ok
+      Sub3Folder/
         Sub3Folder.mbox       # this is ok
+        Sub4Folder/
           Sub4Folder.mbox     # this is ok
+          Sub5Folder/
             Sub5Folder.mbox   # this is NOT ok
 ```
 
